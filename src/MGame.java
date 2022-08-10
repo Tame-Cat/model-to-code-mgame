@@ -43,7 +43,7 @@ public class MGame {
 
     public void playGame(){
         for ( ; roundCat < N ; roundCat++ ){
-            System.out.println("round : " + roundCat);
+            System.out.println("round : " + (roundCat+1));
             playRound();
         }
 
@@ -52,10 +52,8 @@ public class MGame {
     private void playRound(){
         int numPlayer = players.length;
         for(int i = 0 ; i < numPlayer ; i++ ){
-//            if(i == 0){
-//                System.out.println(players[i].getName());
-//            }
-            System.out.printf("%s ",players[i].getName());
+
+            System.out.printf("%s |",players[i].getName());
             players[i].takeTurn();
         }
         System.out.println();

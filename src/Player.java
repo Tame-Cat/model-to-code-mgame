@@ -29,17 +29,9 @@ public class Player {
 
         System.out.printf(" => %d\n",fv);
         System.out.printf("oldloc = %s => newloc = %s\n",oldLoc.getName(),piece.getLocation().getName());
-
+        System.out.println("---------------------------------");
 
     }
-
-//    public void getOldLoc(){
-//        oldLoc = this.piece.getLocation();
-//    }
-//
-//    public void getNewLoc(){
-//        newLoc = board.getSquare(oldLoc,)
-//    }
 
 
     public String getName() {

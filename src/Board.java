@@ -8,9 +8,6 @@ public class Board {
         for(int i = 0 ; i < num ; i++){
             sqrs[i] = new Square();
             sqrs[i].setName(""+i);
-//            if(i == 0){
-//                sqrs[i].setName("Start Checkpoint");
-//            }
         }
     }
 

@@ -1,21 +1,13 @@
 public class Piece {
-    private Square sqr;
+    private Square location;
 
-
-    //    public Piece(Square sqr) {
-//        this.sqr = sqr;
-//    }
-
-//    public Square getSqr() {
-//        return sqr;
-//    }
 
     public Square getLocation(){
-        return sqr;
+        return location;
     }
 
-    public void setLocation(Square sqr){
-        this.sqr = sqr;
+    public void setLocation(Square newloc){
+        this.location = newloc;
     }
 
 
